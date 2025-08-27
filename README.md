@@ -1,13 +1,13 @@
 # GoStop Full Task
 
-This repository contains the code for a GoStop task written in jspsych. 
+This repository contains the code for the GoStop task (a version of a Stop Signal Task) written in jspsych. 
 This version is based on previous versions written by 
 Florence Larkin (https://github.com/florencelarkin/MiniGoStop) and 
 updated by Kelvin Lim (https://github.com/kelvinlim/MiniGoStop).  
 
 The original code was for a brief version of the GoStop task designed to run on mobile
 as part of brief EMA surveys delivered in Qualtrics.
-Kelvin Lim originally forked the MiniGoStop from Florence larkin to 
+Kelvin Lim originally forked the MiniGoStop from Florence Larkin to 
 change the size of the buttons and fonts to make it easier to run on mobile.
 
 This version is basically a longer version of the task (more trials than the Mini EMA version), 
