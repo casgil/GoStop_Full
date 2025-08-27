@@ -1,12 +1,18 @@
-# MiniGoStop
+# GoStop Full Task
 
 This repository contains the code for a GoStop task written in jspsych. 
-It was forked from the version
-written by Florence Larkin (https://github.com/florencelarkin/MiniGoStop).  
+This version is based on previous versions written by 
+Florence Larkin (https://github.com/florencelarkin/MiniGoStop) and 
+updated by Kelvin Lim (https://github.com/kelvinlim/MiniGoStop).  
 
-The reason for the fork was to change the size of the buttons and fonts to make it
-easier to run on mobile.  A future enhancement will be to have it adapt to platforms
-dynamically.
+The original code was for a brief version of the GoStop task designed to run on mobile
+as part of brief EMA surveys delivered in Qualtrics.
+Kelvin Lim originally forked the MiniGoStop from Florence larkin to 
+change the size of the buttons and fonts to make it easier to run on mobile.
+
+This version is basically a longer version of the task (more trials than the Mini EMA version), 
+still meant to run on mobile.
+A future enhancement will be to have it adapt to platforms dynamically.
 
 The main deployment for this task has been using Qualtrics.
 
@@ -16,7 +22,7 @@ Steps:
 
 1. Create a new Block to hold the task.
 2. Create a question.
-3. [Add the following Javascript.](https://github.com/kelvinlim/MiniGoStop/blob/main/qualtrics_question.js)
+3. [Add the following Javascript.](https://github.com/casgil/GoStop_Full/blob/main/qualtrics_question.js)
 
 4. From the Survey tab, select SurveyFlow and add "Set Embedded Data"
 5. Add a New Field GoStop and set it's value to -1.  This is how the data from the 
