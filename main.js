@@ -30,9 +30,9 @@ function shuffle(array) {
 }
 
 function createTrials(stopTrials, targetTrials, novelTrials) {
-    var stopList = [getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim()];
-    var targetList = [getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim()];
-    var novelList = [getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim(), getStim()];
+    var stopList = [getStim(), getStim(), getStim(), getStim()];
+    var targetList = [getStim(), getStim(), getStim(), getStim()];
+    var novelList = [getStim(), getStim(), getStim(), getStim()];
     let List = [];
 for (var i = 0; i < stopTrials; i++) {
     var stopTrial =  {
